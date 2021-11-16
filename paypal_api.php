@@ -141,7 +141,7 @@ foreach($accounts as $acc)
       );
       $data[]=$arr;
    }
-   sleep(300);
+   sleep(60);
 }
 usort($data, "sort_by_date");
 $writer = new XLSXWriter();
